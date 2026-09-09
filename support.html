@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮詞 SyncLyrics — 支援</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #faf9f6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 16px;
+            padding: 48px 40px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 32px;
+            border: 1.5px solid #e5ded2;
+            border-radius: 999px;
+            padding: 4px;
+            width: fit-content;
+        }
+        .lang-switch button {
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 600;
+            border: none;
+            background: transparent;
+            color: #888;
+            padding: 8px 18px;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .lang-switch button.active {
+            background: #A58761;
+            color: #fff;
+        }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 36px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+            border-left: 4px solid #A58761;
+            padding-left: 12px;
+        }
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        p { margin-bottom: 16px; }
+        ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        li { margin-bottom: 8px; }
+        .highlight {
+            background: #f5f0e8;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #999;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 32px 20px; }
+            h1 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>浮詞 SyncLyrics — 支援</h1>
+
+        <div class="highlight">
+            有問題或建議，直接寄信給我：<a href="mailto:ericindiestudio@gmail.com">ericindiestudio@gmail.com</a><br>
+            回報問題時，請附上 App「設定 → 診斷資訊」最上方的<strong>版本</strong>那一行，會快很多。
+        </div>
+
+        <h2>常見問題</h2>
+
+        <h3>找不到這首歌的歌詞</h3>
+        <p>歌詞來自第三方公開資料庫（LRCLIB、網易雲音樂），並非每首歌都有收錄，冷門曲目與新歌尤其容易找不到。這部分不在我們的控制範圍內。</p>
+
+        <h3>歌詞跟音樂對不準</h3>
+        <p>主畫面上有「歌詞校正」，可以前後微調時間軸。不同來源的歌詞時間標記本來就會有差異，調整後的設定會被記住。</p>
+
+        <h3>沒有出現中文翻譯</h3>
+        <p>翻譯優先使用歌詞來源本身附帶的人工翻譯；沒有的話，日文歌會改用 Apple 的裝置端翻譯。若兩者都沒有，就不會顯示翻譯。「設定 → 診斷資訊」的「中文翻譯」那行會說明卡在哪一步。</p>
+
+        <h3>偵測不到正在播放的歌曲</h3>
+        <p>先確認「設定 → 帳號」目前連接的是你實際在用的 App。選 Spotify 需要登入；選 Apple Music 只需要一次存取權限，且只讀得到內建「音樂」App 的播放。</p>
+
+        <h3>浮動視窗打不開</h3>
+        <p>需要先有正在播放的歌曲。部分機型在低耗電模式下會限制浮動視窗。</p>
+
+        <h3>要付費嗎？需要訂閱嗎？</h3>
+        <p>App 本身免費，靠廣告支持。但播放音樂需要你自己的 Spotify 或 Apple Music，本 App 不提供音樂串流。</p>
+
+        <h2>隱私權</h2>
+        <p>請見 <a href="./">隱私權政策</a>。簡單說：沒有帳號系統、沒有我們自己的伺服器，查詢歌詞時只送出歌名、歌手、專輯與長度。</p>
+
+        <div class="footer">
+            <p>Eric Indie Studio</p>
+        </div>
+    </div>
+</body>
+</html>
